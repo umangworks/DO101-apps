@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { pgconn } = require('../db/config')
+const { pgconn } = require('../db/config');
 
 /* Show home page. */
 router.get('/', function(req, res) {
